@@ -1,0 +1,1 @@
+python train.py --config_file /home/speechanalytics/Producto/Marcos/text_classifier/few-shot/setup.json

@@ -1,0 +1,19 @@
+{
+  "exp_name": "",
+  "annotations_train": [
+    "/home/speechanalytics/Producto/Marcos/text_classifier/admin.csv"
+  ],
+  "annotations_test": [
+    "/home/speechanalytics/Producto/Marcos/text_classifier/admin.csv"
+  ],
+  "out_path": "/home/speechanalytics/Producto/Marcos/text_classifier/few-shot/training_outputs",
+  "load_weights": "/home/speechanalytics/Producto/Marcos/text_classifier/few-shot/training_weights",
+  "batch_size": 128,
+  "lr": 0.0003,
+  "epochs": 300,
+  "early_stopping": 20,
+  "wandb_project": "few-shot text classifier",
+  "wand_entity": "melsegma",
+  "save_every": 10,
+  "n_trials": 50
+}
